@@ -33,22 +33,22 @@
     combos {
         compatible = "zmk,combos";
 
-        combo {
+        combo1 {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
         };
 
-        combo {
+        combo2 {
             bindings = <&mkp MB2>;
             key-positions = <19 20>;
         };
 
-        combo {
+        combo3 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <26 27>;
         };
 
-        combo {
+        combo4 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <28 29>;
         };
