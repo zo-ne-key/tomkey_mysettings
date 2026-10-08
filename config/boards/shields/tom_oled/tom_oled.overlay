@@ -1,0 +1,1 @@
+/* OLED hardware is defined in tomkey.dtsi (SSD1306 128x32 on i2c1). */

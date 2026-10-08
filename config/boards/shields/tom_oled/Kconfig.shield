@@ -1,0 +1,2 @@
+config SHIELD_TOM_OLED
+    def_bool $(shields_list_contains,tom_oled)
