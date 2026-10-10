@@ -59,10 +59,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E             &kp R           &kp T                                  &kp Y            &kp U  &lt 2 I    &kp O    &kp P
-&kp F      &kp A         &kp S             &kp D           &kp G      &lt 6 F24       &kp MINUS   &kp H            &kp J  &kp K      &kp L    &kp SEMI
-&kp X      &kp C         &kp V             &kp Z           &kp B      &kp LS(N9)      &kp RS(N0)  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 TAB  &kp SPACE       &kp ENTER   &lt 3 BACKSPACE                             &lt 5 RIGHT_SHIFT
+&kp Q      &kp W         &kp E             &kp R           &kp T                                &kp Y            &kp U  &lt 2 I    &kp O    &mt MINUS P
+&kp F      &kp A         &kp S             &kp D           &kp G      &trans         &trans     &kp H            &kp J  &kp K      &kp L    &kp SEMI
+&kp X      &kp C         &kp V             &kp Z           &kp B      &trans         &trans     &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 TAB  &kp SPACE      &kp ENTER  &lt 3 BACKSPACE                             &lt 5 RIGHT_SHIFT
             >;
         };
 
@@ -88,7 +88,7 @@
             bindings = <
 &kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)   &kp NUMBER_9             &kp NUMBER_0                           &trans  &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &kp LG(P)
 &kp TAB    &kp LA(LG(LEFT_ARROW))  &kp LG(LEFT)    &kp LG(LA(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LG(K)
-&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &trans              &kp LC(UP_ARROW)  &trans               &kp LG(L)
+&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &kp RS(N9)          &kp LC(UP_ARROW)  &kp RS(N0)           &kp LG(L)
 &trans     &trans                  &kp LEFT_SHIFT  &trans                   &trans             &trans      &trans  &trans                                                             &trans
             >;
         };
@@ -98,16 +98,16 @@
 &kp GRAVE                &kp NUMBER_7  &kp NUMBER_8  &kp LG(LS(NUMBER_4))  &kp PLUS                          &kp BACKSLASH    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
 &kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp ASTERISK  &trans      &trans  &kp EXCLAMATION  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp PERIOD    &trans      &trans  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-&trans                   &trans        &trans        &trans                &trans        &trans      &trans  &kp LEFT_SHIFT                                             &trans
+&trans                   &trans        &trans        &kp LEFT_SHIFT        &trans        &trans      &trans  &trans                                                     &kp RIGHT_SHIFT
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans  &trans                      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp F12
             >;
         };
 
