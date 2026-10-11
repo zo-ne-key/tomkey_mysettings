@@ -45,12 +45,12 @@
 
         combo3 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <26 27>;
+            key-positions = <26 25>;
         };
 
         combo4 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
         };
     };
 
@@ -59,19 +59,19 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E             &kp R           &kp T                                &kp Y            &kp U  &lt 2 I    &kp O    &mt MINUS P
-&kp F      &kp A         &kp S             &kp D           &kp G      &trans         &trans     &kp H            &kp J  &kp K      &kp L    &kp SEMI
-&kp X      &kp C         &kp V             &kp Z           &kp B      &trans         &trans     &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 TAB  &kp SPACE      &kp ENTER  &lt 3 BACKSPACE                             &lt 5 RIGHT_SHIFT
+&mt ESCAPE Q      &kp W   &kp E   &kp R   &kp T                                &kp Y            &kp U  &lt 2 I    &kp O    &mt MINUS P
+&kp F             &kp A   &kp S   &kp D   &kp G      &trans         &trans     &kp H            &kp J  &kp K      &kp L    &kp SEMI
+&mt LEFT_SHIFT X  &kp C   &kp V   &kp Z   &kp B      &trans         &trans     &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &trans  &trans  &trans  &lt 4 TAB  &kp SPACE      &kp ENTER  &lt 3 BACKSPACE                             &lt 5 RIGHT_SHIFT
             >;
         };
 
         MOUSE {
             bindings = <
-&trans     &trans        &trans            &trans          &trans                      &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans      &trans  &mo 3                           &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -98,7 +98,7 @@
 &kp GRAVE                &kp NUMBER_7  &kp NUMBER_8  &kp LG(LS(NUMBER_4))  &kp PLUS                          &kp BACKSLASH    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
 &kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp ASTERISK  &trans      &trans  &kp EXCLAMATION  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp PERIOD    &trans      &trans  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-&trans                   &trans        &trans        &kp LEFT_SHIFT        &trans        &trans      &trans  &trans                                                     &kp RIGHT_SHIFT
+&trans                   &trans        &trans        &trans                &trans        &trans      &trans  &trans                                                     &kp RIGHT_SHIFT
             >;
         };
 
